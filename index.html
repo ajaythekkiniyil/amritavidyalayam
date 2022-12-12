@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/favicon.png" />
+    <title>Amrita Vidyalayam</title>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/work-sans.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-12 p-2 d-none d-lg-block">
+                    <img class="img-fluid" src="assets/images/logo.png" alt="">
+                </div>
+                <div class="col-lg-9 d-none d-lg-block">
+                    <ul class="nav-links">
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About Us
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">A Brief Overview</a></li>
+                                    <li><a class="dropdown-item" href="#">Infrastructure</a></li>
+                                    <li><a class="dropdown-item" href="#">About Amritapuri</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Circulars
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Pre Primary</a></li>
+                                    <li><a class="dropdown-item" href="#">Primary</a></li>
+                                    <li><a class="dropdown-item" href="#">Secondary</a></li>
+                                    <li><a class="dropdown-item" href="#">Higher Secondary</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Updates
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">News & Events</a></li>
+                                    <li><a class="dropdown-item" href="#">Field Trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Yoga Day</a></li>
+                                    <li><a class="dropdown-item" href="#">Eco Club</a></li>
+                                    <li><a class="dropdown-item" href="#">Swachh Bharat Abhiyan</a></li>
+                                    <li><a class="dropdown-item" href="#">Celebrations</a></li>
+                                    <li><a class="dropdown-item" href="#">Sports</a></li>
+                                    <li><a class="dropdown-item" href="#">Amritam Project</a></li>
+                                    <li><a class="dropdown-item" href="#">Extra Curricular</a></li>
+                                    <li><a class="dropdown-item" href="#">MA Math Ahmedabad</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Academics
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Fee Structure</a></li>
+                                    <li><a class="dropdown-item" href="#">Book List</a></li>
+                                    <li><a class="dropdown-item" href="#">Staff Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Holiday List</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <!-- Mobiel navigation -->
+                <div class="mobile-nav d-block d-lg-none">
+                    <div class="row" style="align-items: center;">
+                        <div class="col-11">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="">
+                        </div>
+                        <div class="col-1 p-2">
+                            <span style="font-size:23px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                        </div>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" style="font-size:33px;cursor:pointer" onclick="closeNav()">&times;</a>
+                        <ul class="text-center overlay-content">
+                            <li><a href=""><strong>Home</strong></a></li>
+                            <li>
+                                <strong>About Us</strong>
+                                <ul>
+                                    <li><a href="">A Brief Overview</a></li>
+                                    <li><a href="">Infrastructure</a></li>
+                                    <li><a href="">About Amritapuri</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Circulars</strong>
+                                <ul>
+                                    <li><a href="">Pre Primary</a></li>
+                                    <li><a href="">Primary</a></li>
+                                    <li><a href="">Secondary</a></li>
+                                    <li><a href="">Higher Secondary</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Updates</strong>
+                                <ul>
+                                    <li><a href="">News & Events</a></li>
+                                    <li><a href="">Field Trips</a></li>
+                                    <li><a href="">Yoga Day</a></li>
+                                    <li><a href="">Eco Club</a></li>
+                                    <li><a href="">Swachh Bharat Abhiyan</a></li>
+                                    <li><a href="">Celebrations</a></li>
+                                    <li><a href="">Sports</a></li>
+                                    <li><a href="">Amritam Project</a></li>
+                                    <li><a href="">Extra Curricular</a></li>
+                                    <li><a href="">MA Math Ahmedabad</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Academics</strong>
+                                <ul>
+                                    <li><a href="">Fee Structure</a></li>
+                                    <li><a href="">Book List</a></li>
+                                    <li><a href="">Staff Details</a></li>
+                                    <li><a href="">Holiday List</a></li>
+                                </ul>
+                            </li>
+                            <li><a href=""><strong>Contact Us</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Mobiel navigation -->
+                <div class="col-md-6">
+                    <h3 class="banner-title">Welcome to <span class="down-mark" style="color: #fff;">Amrita</span>
+                        Vidyalayam</h3>
+                    <p class="banner-para">National network of value based schools</p>
+                    <a href="" class="connect-us">GET IN TOUCH WITH US</a>
+                </div>
+                <div class="col-md-6 banner-right-img-box">
+                    <img src="assets/images/student.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="highlights">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="highlights-box-1">
+                        <img src="assets/images/Pre-Primary.svg" alt="" class="img-fluid m-4" width="60px">
+                        <h6>Pre Primary</h6>
+                        <p>Pre-KG, L-KG, U-KG <br> Total class=9</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlights-box-2">
+                        <img src="assets/images/Primary.svg" alt="" class="img-fluid m-4" width="60px">
+                        <h6>Primary</h6>
+                        <p>1st to 8th <br> Total class=24</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlights-box-3">
+                        <img src="assets/images/Secondory.svg" alt="" class="img-fluid m-4" width="60px">
+                        <h6>Secondary</h6>
+                        <p>9th and 10th<br> Total class=6</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="highlights-box-4">
+                        <img src="assets/images/Higher-Secondory.svg" alt="" class="img-fluid m-4" width="60px">
+                        <h6>Higher Secondary</h6>
+                        <p>11th and 12th<br> Total class=4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-missions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h3 class="title">Our <span class="down-mark">Approach</span></h3>
+                    <p class="para">Our approach to Value Education is also in line with two important conclusions drawn
+                        from recent
+                        studies conducted under the aegis of UNESCO and other organizations at Tokyo - Japan :
+                    </p>
+                    <ul>
+                        <li>Value Education, based on the developmental levels of children, has to be connected to all
+                            the subjects and activities conducted in school.
+                        </li>
+                        <li>In addition to education for knowing and education for doing, children should receive
+                            education for becoming.
+                        </li>
+                    </ul>
+
+                    <h3 class="title">Our Mission</h3>
+                    <p class="para">Our mission is to provide value-based education and mold the character of the
+                        younger generation
+                        through a system of wholesome learning, so that the earnest endeavor to achieve progress and
+                        prosperity in life is matched by an ardent desire to extend selfless service to society, one
+                        complementing the other.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="assets/images/image-gallery.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="strength">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-3 p-2">
+                    <h3>1900</h3>
+                    <p>Students</p>
+                </div>
+                <div class="col-6 col-lg-3 p-2">
+                    <h3>100%</h3>
+                    <p>CBSE Results</p>
+                </div>
+                <div class="col-6 col-lg-3 p-2">
+                    <h3>130+</h3>
+                    <p>Qualified staff</p>
+                </div>
+                <div class="col-6 col-lg-3 p-2">
+                    <h3>55+</h3>
+                    <p>School across India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="glance">
+        <div class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-lg-6 left text-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="glance-box-1">
+                                <img src="assets/images/Pre-Primary.svg" alt="" class="img-fluid mb-3" width="60px">
+                                <h6>Pre Primary</h6>
+                                <p>Pre-KG, L-KG, U-KG <br> Total class=9</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="glance-box-2 mt-4">
+                                <img src="assets/images/Primary.svg" alt="" class="img-fluid mb-3" width="60px">
+                                <h6>Primary</h6>
+                                <p>1st to 8th <br> Total class=24</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="glance-box-3">
+                                <img src="assets/images/Secondory.svg" alt="" class="img-fluid mb-3" width="60px">
+                                <h6>Secondary</h6>
+                                <p>9th and 10th<br> Total class=6</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="glance-box-4 mt-4">
+                                <img src="assets/images/Higher-Secondory.svg" alt="" class="img-fluid mb-3"
+                                    width="60px">
+                                <h6>Higher Secondary</h6>
+                                <p>11th and 12th<br> Total class=4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="title">Amrita Vidyalayam at a Glance</h3>
+                    <p class="para">Our classes along with their sections</p>
+                    <h5 style="color: #292929;">We at Amrita Vidyalayam, aim to instill in our students a strong sense
+                        of our cultural and
+                        spiritual values.</h5>
+                    <p class="para">While maintaining the traditional values of the Guru-Shishya Parampara, our
+                        Vidyalayam shall
+                        always provide a rich learning environment where students can excel fearlessly in all facets of
+                        their personality - physical, mental, intellectual and aesthetic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="connection">
+        <img class="pattern-2" src="assets/images/patter-2.png" alt="">
+        <div class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-lg-6">
+                    <div class="col-12">
+                        <h3 class="connection-title">We have been educating children for over fourteen years.</h3>
+                        <p class="para">Our goal is to provide a rich learning environment where students can excel
+                            fearlessly in all facets of their personality - physical, mental, intellectual and
+                            aesthetic. This foundation will enable self-fulfilment of their professional, personal,
+                            family and social lives.</p>
+                        <ul>
+                            <li>Instilling Values Through Celebration</li>
+                            <li>Peer Group Studies - Fun to Learn</li>
+                            <li>Imparting The Best in Modern Scientific Education</li>
+                            <li>Comprehensive reporting on individual achievement</li>
+                            <li>Educational field trips and school presentations</li>
+                            <li>Positive learning environment for your child</li>
+                            <li>Delightful, friendly and welcoming place</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6 pt-4">
+                            <div class="col-2 text-center connection-box">
+                                <img src="assets/images/home.svg" alt="" width="45px">
+                            </div>
+                            <div class="col-10">
+                                <h6>Friendly Place</h6>
+                                <p>Modern Infrastructure of 4756 sq m with 2 academic blocks.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 pt-4">
+                            <div class="col-2 text-center connection-box">
+                                <img src="assets/images/cctv.svg" alt="" width="45px">
+                            </div>
+                            <div class="col-10">
+                                <h6>Friendly Place</h6>
+                                <p>Modern Infrastructure of 4756 sq m with 2 academic blocks.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 pt-4">
+                            <div class="col-2 text-center connection-box">
+                                <img src="assets/images/fun.svg" alt="" width="45px">
+                            </div>
+                            <div class="col-10">
+                                <h6>Friendly Place</h6>
+                                <p>Modern Infrastructure of 4756 sq m with 2 academic blocks.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 pt-4">
+                            <div class="col-2 text-center connection-box">
+                                <img src="assets/images/smart-cls.svg" alt="" width="45px">
+                            </div>
+                            <div class="col-10">
+                                <h6>Friendly Place</h6>
+                                <p>Modern Infrastructure of 4756 sq m with 2 academic blocks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quotes-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="img-fluid amma" src="assets/images/amma.jpg" alt="">
+                    <p class="para">My Desire : Everyone in the world should be able to sleep without fear, at least for
+                        one night. Everyone should be able to eat to his fill, at least for one day. There should be at
+                        least one day when hospitals see no one admitted due to violence.</p>
+                    <h4>- Amma</h4>
+                </div>
+                <!-- <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    
+                </div> -->
+                <!-- <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">Parents have a great influence on their children. If they are morally good, the
+                        children will also be.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">The increasing amount of scientific knowledge that humanity has acquired will
+                        ultimately point towards God.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">A porter uses his head to carry luggage. Scientists use their heads to unravel the
+                        mysteries of the universe.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">It is good to spend some time with children. They will teach you to believe, to love
+                        and to play.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">My Dream : A vision of a world in which women and men progress together, a world in
+                        which all men respect the fact that, like the two wings of a bird, women and men are of equal
+                        value.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="quote" src="assets/images/quote.svg" alt="">
+                    <p class="para">My Desire : Everyone in the world should be able to sleep without fear, at least for
+                        one night. Everyone should be able to eat to his fill, at least for one day. There should be at
+                        least one day when hospitals see no one admitted due to violence.</p>
+                    <h4 style="color: #fff; font-weight: 300;">- Amma</h4>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="title"><span class="down-mark">What's New</span></h3>
+                    <p class="para p-4">Keep up to date with the latest news</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="assets/images/news-1.jpeg" alt="" width="100%">
+                    <h6 class="pt-3 pb-4"><a target="_blank"
+                            href="https://www.amritavidyalayam.co.in/ganesh-chaturthi-orange-day-celebration/">Ganesh
+                            Chaturthi/ Orange Day Celebration</a></h6>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="assets/images/news-2.jpeg" alt="" width="100%">
+                    <h6 class="pt-3 pb-4"><a target="_blank"
+                            href="https://www.amritavidyalayam.co.in/sports-achievement/">Sports Achievement</a></h6>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="assets/images/news-3.jpeg" alt="" width="100%">
+                    <h6 class="pt-3 pb-4"><a target="_blank"
+                            href="https://www.amritavidyalayam.co.in/independence-day-rakhi-celebration/">Independence
+                            Day/Rakhi Celebration</a></h6>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <img src="assets/images/news-4.jpeg" alt="" width="100%">
+                    <h6 class="pt-3 pb-4"><a target="_blank"
+                            href="https://www.amritavidyalayam.co.in/colouring-competition-2022-23/">Colouring
+                            Competition 2022 - 23</a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/images/logo.png" alt="" class="img-fluid pb-3">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Amrita Vidyalayams</h5>
+                            <p>Amrita Vidyalayams are a chain of value based schools which are managed by Mata
+                                Amritanandamayi Math.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>About Amritapuri</h5>
+                            <p>Amritapuri is the living example of the ancient Indian ideal “the whole world is one
+                                family” (vasudhaiva kutumbakam).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Contact Us</h5>
+                            <p>Amrita Vidyalayam, Janata Nagar Road, Ghatlodia, Ahmedabad - 380061 (Gujarat)</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>Phone & E-mail</h5>
+                            <p>Phone: 079-27452009, 27494563 <br>
+                                Email: <a href="mailto:info@amritavidyalayam.co.in"
+                                    style="text-decoration: none; color: black;">info@amritavidyalayam.co.in</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
